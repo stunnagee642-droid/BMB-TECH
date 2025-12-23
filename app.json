@@ -8,7 +8,7 @@
   "stack":"container",
   "env":{
     "PREFIX": {
-      "description": "choose your prefix of bot",
+      "description": ".",
       "value": ".",
       "required": true
     },
@@ -72,17 +72,17 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "put your session ID , the code you receive after scanning Qr code",
+      "description": "B.M.B-TECH;;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZU9tUGs5cVdsbHNSK2hvc1I3V2lsMmhnWlJMWDRVaHNxWGRoNHhGamNsMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWVduSTQ2V0ZCUjRYVlArVmlUVTZ1NGpzZWwzb2JsbERlWTFmNVZ6OEwxZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvTGdsNjY1bmpIQ2N5NzNJUWdkeXBVbUQ1MG04OWlqM3JZeVdNY25MelZrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJQTBHNDFYYXpmTHJscXRJQ2lVK0RJL2x2eU9sclBZeXBtcmFvdk5yWlJzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZKYWZnTjU4RzYyWjlZOVZWaFpYbmJrdFBSS0o3THRpTml1YzB3dUFUM0E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9SZ0gxbGIyYUpXSWZMYncwQ3dHSnZEV3RXc3BvbEZOTnYvMXAvRE5SRXM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkRFODUxK3c5b0tQczF6MmRkTys3LzlZN25Qa2E5ZTF6TU1BWmpndjRXWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0NOTk4rQ0FhSElSNHFKVE1zdUYwbTVIWVJuRFBJanZSSnhGOERvRkxEWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InMvSkUxS3BIQUxWS056Z1VvdzNoVXhSN0JEN3Y0eHNHeFJsQ3Z3cDFZekR4NnhuenlrRnpFaEhPRG5LV2FNUmcyS3VwWjBZenFkanMxemVmVGlpZWh3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTE2LCJhZHZTZWNyZXRLZXkiOiJGcGFOSEtZWWpBS0hnZDA2WXFxMTZKSnl4S1BNRDRpYXV6YU54VGY1bE5vPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJFdmpXSXg1ZlI4R3hua2FBcjh3QmFRIiwicGhvbmVJZCI6IjU5ZWFkZGFiLWI3MmMtNGUzOS04YWU3LWJhMzIxNjRjYjg4MyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTZFkwWXBDenBpRmllM3RYcWl0VkE4WTF0UUU9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieW1qclNUQzVQYXpHSENuaDhXRjRVUVRiTmdVPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjhIWkJKTU1aIiwibWUiOnsiaWQiOiIyNTQ3MTgxOTAyNjc6NjlAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIxNTQ2ODgwOTU4MzAxNTQ6NjlAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKRDVsWnNGRVBDQnFjb0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJEd3F4dVhsb1Q1d0IrVDhXVHp5c0tIdXY1RzkwVSt0L1NBdDhKcG9zUVUwPSIsImFjY291bnRTaWduYXR1cmUiOiIrUWNYbFMwbDdkcUhUKzdSYjA1Ris0MFBzc05FdkxxeThJRHB5UU9DUnMwczZpSGtqNk1PSFlTbW1LblpCN3lvN0lacmpiYmtXaWs3RWF5eGNUb1pEdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiODhIYmhlUXdudFRBN3Erai9EczgvQk9Qa2hJb056U21zdkhsa3psbkN6V0ViNHFzcllENHA5cWE0TzBMckNPUk5wL09QMFN3amZvd1A3V1dsOFRkaGc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQ3MTgxOTAyNjc6NjlAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUThLc2JsNWFFK2NBZmsvRms4OHJDaDdyK1J2ZEZQcmYwZ0xmQ2FhTEVGTiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0FVSURRZ0kifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzY2NDczOTgzLCJsYXN0UHJvcEhhc2giOiJQV2s1QiJ9",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "desc": "Your Name",
+      "desc": "Glen",
       "required": false,
       "value": "𝙱.𝙼.𝙱-𝚇𝙼𝙳"
     },
     "NUMERO_OWNER": {
-      "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
+      "desc": "254718190267",
       "required": true,
       "value": "255767××××"
     },
